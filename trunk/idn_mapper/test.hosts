@@ -1,8 +1,0 @@
-##
-# Add these lines to your /etc/hosts file to test the mapper
-# on your local system
-##
-# unicode hammer and sickle ☭
-127.0.0.1 xn--u4h.example.com
-# unicode snowman ☃
-127.0.0.1 xn--n3h.example.com
