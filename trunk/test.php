@@ -1,4 +1,8 @@
 <?php
+	/** @brief testing harness for mod_rewrite mapper
+	 * takes one file and feeds it line by line to a mapping utility
+	 * then compares output to expected results.
+	 */
 	function print_help()
 	{
 		echo "usage php tester.php [--mapper /path/to/util] [--idn idn.txt] [--expected answers.txt] [--loop]";
