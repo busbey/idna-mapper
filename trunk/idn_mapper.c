@@ -1,3 +1,8 @@
+/** @brief mod_rewrite utility for translating idns from punycode to utf-8
+ *  This utility is designed to be used with the mod_rewrite RewriteMap
+ *	directive.  It reads strings delimited by newlines, passes them to
+ *  GNU libidn and then sends the results back delimited by newlines.
+ */
 #include "idn_mapper.h"
 
 int main(int argc, char** argv)
